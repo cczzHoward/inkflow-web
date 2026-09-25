@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
                     constructive and inclusive social network for software developers.
                 </p>
                 <p className="text-sm">
-                    &copy; {new Date().getFullYear()} Article-frontend. All rights reserved.
+                    &copy; {new Date().getFullYear()} InkFlow. All rights reserved.
                 </p>
             </div>
         </footer>

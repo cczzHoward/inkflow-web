@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig(({ mode }) => ({
     plugins: [react(), tailwindcss()],
-    base: mode === 'production' ? '/article-frontend-practice/' : '/',
+    base: mode === 'production' ? '/inkflow-web/' : '/',
     resolve: {
         alias: {
             '@app': path.resolve(__dirname, './src'),
